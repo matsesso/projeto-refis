@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+@media screen and (max-width: 576px) {
+    .hidden-xs {
+     display:none;
+    }
+   
+    .visible-xs {
+     display:block;
+    }
+}
+
+p.teaser {
+	text-indent: 30px;
+}
+
+.espaco {
+	margin: 1em 0em;
+}
+
+body, html {
+    height: 100%;
+}
+
+label{
+    color:#8D0F12;
+}
+
+a{
+    color:#8D0F12;
+}
+
+body{
+    background: #E9ECEF;
+    font-family: 'Poppins', sans-serif;
+}
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnForm .btn{
+    border: #8D0F12;
+    font-size: 16px;
+    background:#8D0F12;
+    border-color:#8D0F12;
+    border: none;
+    font-weight: bold;
+    color: #E9ECEF;
+}
+
+.btn-success:active {
+    border-color:#8D0F12;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+    background-color: #8D0F12;
+    border-color: #8D0F12;
+}
+
+.btnForm button{
+    position: absolute;
+    left:5px;
+    top: 40%;
+    display: block;
+    text-align: center;
+}
+
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px;
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover{
+    box-shadow: 0 0 6px #8D0F12;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color:#8D0F12;
+    font-size: 16px;
+}
+
+input {
+    padding: 10px;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+input.invalid {
+    background-color: #ffdddd;
+}
+
+.tab {
+    display: none;
+}
+
+.step {
+    height: 20px;
+    width: 20px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active {
+    opacity: 1;
+}
+
+.step.finish {
+    background-color: #8D0F12;
+}
+
+.barra {
+    color: #FFFFFF;
+    display: block;
+    font-weight: bold;
+    margin-bottom: -1px;
+    height: 59px;
+    text-align: center;
+    font-size: 23px;
+    background-color: #8D0F12;
+    line-height: 55px;
+    position: relative;
+}
+
+.fa-file-pdf{
+    cursor: pointer;
+}
+
+.fa-file-pdf:hover {
+    border-radius: 90%;
+    background: #8D0F12;
+}
+
+.fa-arrow-left{
+    cursor: pointer;
+    color:  #8D0F12;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+
+
