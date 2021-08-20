@@ -29,6 +29,8 @@
         #svg-map a:hover path{ fill:#8E0F12 !important }
         #svg-map .circle { fill:#A8B1B4; }
         #svg-map a:hover .circle { fill:#8E0F12 !important; cursor:pointer }
+
+        @media screen and (max-width: 550px) { #svg-map{ width: 350px; margin-top: -30px; margin-bottom: -30px;padding-right: 10px;}}
     </style>
 </head>
 <body>
