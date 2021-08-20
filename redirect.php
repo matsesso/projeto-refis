@@ -45,7 +45,7 @@
                             <script>
                                 setTimeout(function () {
                                 window.location.href= 'https://cro-<?php echo $cro; ?>.implanta.net.br/ServicosOnline/Publico/CampanhasPagamento/LoginCampanha/';
-                            }, 1000000);
+                            }, 100);
                             </script>
             </div>
 
