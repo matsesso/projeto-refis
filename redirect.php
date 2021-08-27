@@ -29,27 +29,26 @@
         <div class="jumbotron jumbotron-fluid d-flex align-items-center">
         <div class="container">
          <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                    <br/><br/>
-                    <h2 id="info" class="card-text" style="text-align: center;">Caso não seja redirecionando para a campanha de pagamento do CRO-<?php echo $cro; ?> acesse 
-                    <a href="https://cro-<?php echo $cro; ?>.implanta.net.br/ServicosOnline/Publico/CampanhasPagamento/LoginCampanha/"target="_blank">este link.</a></h2>
-                             <br/>
-                             <br/>
-                            <div class="box text-center">
-                                <a style="color:#8E0F12;text-decoration:none;" href="index.php">
-                                <i class="fa fa-home fa-2x"></i></br>
-                                <small class="text-secondary">Clique para retornar</small>
-                                <h5>Pagina inicial</h5>
-                                </a>
-    		                </div>
-                            <script>
-                                setTimeout(function () {
-                                window.location.href= 'https://cro-<?php echo $cro; ?>.implanta.net.br/ServicosOnline/Publico/CampanhasPagamento/LoginCampanha/';
-                            }, 100);
-                            </script>
+            <div class="col-lg-8 col-lg-offset-2">
+            <br/><br/>
+            <h2 id="info" class="card-text" style="text-align: center;">Caso não seja redirecionando para a campanha de pagamento do CRO-<?php echo $cro; ?> acesse 
+            <a href="https://cro-<?php echo $cro; ?>.implanta.net.br/ServicosOnline/Publico/CampanhasPagamento/LoginCampanha/"target="_blank">este link.</a></h2>
+                    <br/>
+                    <br/>
+                    <div class="box text-center">
+                        <a style="color:#8E0F12;text-decoration:none;" href="index.php">
+                        <i class="fa fa-home fa-2x"></i></br>
+                        <small class="text-secondary">Clique para retornar</small>
+                        <h5>Pagina inicial</h5>
+                        </a>
+                    </div>
+                    <script>
+                        setTimeout(function () {
+                        window.location.href= 'https://cro-<?php echo $cro; ?>.implanta.net.br/ServicosOnline/Publico/CampanhasPagamento/LoginCampanha/';
+                    }, 100);
+                    </script>
             </div>
-
-    </div>
+        </div>
 
 <?php
     include 'includes/footer.php'

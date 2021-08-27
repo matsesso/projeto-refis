@@ -7,7 +7,7 @@
 
     <title>CFO - REFIS</title>
 
-    <!------ Include the above in your HEAD tag ---------->
+    <!-- Include the above in your HEAD tag -->
     <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -29,9 +29,8 @@
         #svg-map a:hover path{ fill:#8E0F12 !important }
         #svg-map .circle { fill:#A8B1B4; }
         #svg-map a:hover .circle { fill:#8E0F12 !important; cursor:pointer }
-
-        @media screen and (max-width: 550px) {#svg-map{ width: 350px; margin-top: -30px; margin-bottom: -30px; padding-right: 10px;}}
-        @media screen and (max-width: 350px) {#svg-map{ width: 300px; margin-top: -30px; margin-bottom: -30px; padding-right: 10px;}}
+        @media screen and (max-width: 550px) {#svg-map{ width: 330px; margin-top: -50px; margin-bottom: -50px; padding-right: 10px;}}
+        @media screen and (max-width: 350px) {#svg-map{ width: 260px; margin-top: -90px; margin-bottom: -90px; padding-right: 10px;}}
     </style>
 </head>
 <body>
